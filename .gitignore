@@ -1,0 +1,6 @@
+node_modules
+__pycache__
+media
+*.mp4
+package-lock.json
+.DS_Store
