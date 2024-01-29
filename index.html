@@ -303,6 +303,54 @@
           <section>
             <div class="sl-block">
               <div class="header">
+                <h1 class="title">Identify the different types of cells</h1>
+              </div>
+              <div class="main text-center">
+                <video id="adapt" data-autoplay
+                  src="/light/videos/identify_0000.mp4" />
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">Identify the different types of cells</h1>
+              </div>
+              <div class="main text-center">
+                <video id="adapt" data-autoplay
+                  src="/light/videos/identify_0001.mp4" />
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">Identify the different types of cells</h1>
+              </div>
+              <div class="main text-center">
+                <video id="adapt" data-autoplay
+                  src="/light/videos/identify_0002.mp4" />
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">Identify the different types of cells</h1>
+              </div>
+              <div class="main text-center">
+                <video id="adapt" data-autoplay
+                  src="/light/videos/identify_0003.mp4" />
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="sl-block">
+              <div class="header">
                 <h1 class="title">Algebra of sets</h1>
               </div>
               <div class="main text-center">
@@ -387,19 +435,19 @@
           </section>
         </section>
 
-          <section data-menu-title="examples">
-            <section>
-              <h1>Examples</h1>
-              <hr>
-            </section>
+        <section data-menu-title="examples">
+          <section>
+            <h1>Examples</h1>
+            <hr>
+          </section>
 
-            <section>
-              <div class="sl-block">
-                <div class="header">
-                  <h1 class="title">Field creation</h1>
-                </div>
-                <div class="main">
-                  <pre><code class="cpp data-trim data-noescape">auto mesh = samurai::MRMesh&lt;Config&gt;({{0, 0}, {1, 1}}, 2, 8);
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">Field creation</h1>
+              </div>
+              <div class="main">
+                <pre><code class="cpp data-trim data-noescape">auto mesh = samurai::MRMesh&lt;Config&gt;({{0, 0}, {1, 1}}, 2, 8);
 auto u = samurai::make_field&lt;double, 1&gt;("u", mesh);
 
 samurai::for_each_cell(mesh, [&](auto cell)
@@ -410,34 +458,34 @@ samurai::for_each_cell(mesh, [&](auto cell)
   u[cell] = x*x + y*y;
 });
                 </code></pre>
-                </div>
               </div>
-            </section>
+            </div>
+          </section>
 
-            <section>
-              <h1>The projection operator</h1>
-              <hr>
-            </section>
+          <section>
+            <h1>The projection operator</h1>
+            <hr>
+          </section>
 
-            <section>
-              <div class="sl-block">
-                <div class="header">
-                  <h1 class="title">An example</h1>
-                </div>
-                <div class="main">
-                  <video id="adapt" data-autoplay
-                    src="/light/videos/projection.mp4" />
-                </div>
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">An example</h1>
               </div>
-            </section>
+              <div class="main">
+                <video id="adapt" data-autoplay
+                  src="/light/videos/projection.mp4" />
+              </div>
+            </div>
+          </section>
 
-            <section>
-              <div class="sl-block">
-                <div class="header">
-                  <h1 class="title">The implementation</h1>
-                </div>
-                <div class="main">
-                  <pre><code class="cpp data-trim data-noescape" data-line-numbers="1|2-4|6-9">auto u = samurai::make_field&lt;double, 1&gt;("u", mesh);
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">The implementation</h1>
+              </div>
+              <div class="main">
+                <pre><code class="cpp data-trim data-noescape" data-line-numbers="1|2-4|6-9">auto u = samurai::make_field&lt;double, 1&gt;("u", mesh);
 ...
 auto set = samurai::intersection(mesh[level], mesh[level + 1])
           .on(level);
@@ -447,80 +495,215 @@ set([&](const auto& i, auto)
     u(level, i) = 0.5*(u(level + 1, 2*i) + u(level + 1, 2*i + 1));
 });
                 </code></pre>
-                </div>
               </div>
-            </section>
+            </div>
+          </section>
 
-            <section>
-              <h1>The heat equation</h1>
-              <hr>
-            </section>
+          <section>
+            <h1>Creation of random meshes and their graduation</h1>
+            <hr>
+          </section>
 
-            <section>
-              <div class="sl-block">
-                <div class="header">
-                  <h1 class="title">The problem</h1>
-                </div>
-                <div class="main">
-                  We consider the well known heat equation
-                  $$
-                  \frac{\partial u}{\partial t} - \Delta u =
-                  0
-                  $$
-                </div>
+          <section>
+            <div class="row">
+              <div class="col-6">
+                <img src="/figures/graduation_before.png" />
+                before
               </div>
-            </section>
+              <div class="col-6">
+                <img src="/figures/graduation_after.png" />
+                after
+              </div>
+            </div>
+          </section>
 
-            <section>
-              <div class="sl-block">
-                <div class="header">
-                  <h1 class="title">The finite volume scheme</h1>
-                </div>
-                <div class="main">
-                  Since we have
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">Create a mesh</h1>
+              </div>
+              <div class="main">
+                <pre><code class="cpp">
+constexpr std::size_t dim = 2;
+std::size_t start_level = 1;
+std::size_t max_refinement_level = 7;
 
-                  $$
-                  \int_V \Delta u = \int_{\partial V} \nabla u\cdot \mathbf{n},
-                  $$
+samurai::Box&lt;int, dim&gt; box({0, 0}, {1&lt;&lt;start_level, 1&lt;&lt;start_level});
 
-                  the flux function to implement is a discrete version of
-                  $\nabla
-                  u\cdot \mathbf{n}$.
-                  Here, we choose the normal gradient of the first order,
-                  requiring a stencil of two cells.
-                  This is enough to write the static configuration
+samurai::CellArray&lt;dim&gt; ca;
+ca[start_level] = {start_level, box};
+                  </code></pre>
+              </div>
+            </div>
+          </section>
 
-                  <pre><code class="cpp data-trim data-noescape">auto u = samurai::make_field&lt;1&gt;("u", mesh); // scalar field
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">Add cells randomly</h1>
+              </div>
+              <div class="main">
+                <pre><code class="cpp">
+samurai::CellList&lt;dim&gt; cl;
+
+samurai::for_each_interval(ca, [&](std::size_t level, const auto& interval, const auto& index)
+{
+    auto choice = xt::random::choice(xt::xtensor_fixed&lt;bool, xt::xshape&lt;2&gt;&gt;{true, false}, interval.size());
+
+    for(int i = interval.start, ic = 0; i&lt;interval.end; ++i, ++ic)
+    {
+        if (choice[ic])
+        {
+            cl[level + 1][2*index].add_interval({2*i, 2*i+2});
+            cl[level + 1][2*index + 1].add_interval({2*i, 2*i+2});
+        }
+        else
+        {
+            cl[level][index].add_point(i);
+        }
+    }
+});
+
+ca = {cl, true};
+                  </code></pre>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">Tag cells to refine</h1>
+              </div>
+              <div class="main">
+                <pre><code class="cpp">std::size_t min_level = ca.min_level(), max_level = ca.max_level();
+xt::xtensor_fixed&lt;int, xt::xshape&lt;4, dim&gt;&gt; stencil{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+
+auto tag = samurai::make_field&lt;bool, 1&gt;("tag", ca);
+tag.fill(false);
+
+for(std::size_t level = min_level + 2; level &lt;= max_level; ++level)
+{
+    for(std::size_t level_below = min_level; level_below &lt; level - 1; ++level_below)
+    {
+        for(std::size_t i = 0; i &lt; stencil.shape()[0]; ++i)
+        {
+            auto s = xt::view(stencil, i);
+            auto set = samurai::intersection(samurai::translate(ca[level], s), ca[level_below])
+                      .on(level_below);
+            set([&](const auto& i, const auto& index)
+            {
+                tag(level_below, i, index[0]) = true;
+            });
+        }
+    }
+}
+                  </code></pre>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">Create a new mesh from the tag</h1>
+              </div>
+              <div class="main">
+                <pre><code class="cpp">
+samurai::CellList&lt;dim&gt; cl;
+
+samurai::for_each_cell(ca, [&](auto cell)
+{
+    auto i = cell.indices[0];
+    auto j = cell.indices[1];
+
+    if (tag[cell])
+    {
+        cl[cell.level + 1][{2*j}].add_interval({2*i, 2*i+2});
+        cl[cell.level + 1][{2*j + 1}].add_interval({2*i, 2*i+2});
+    }
+    else
+    {
+        cl[cell.level][{j}].add_point(i);
+    }
+});
+
+samurai::CellArray&lt;dim&gt; new_ca = {cl, true};
+                  </code></pre>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h1>The heat equation</h1>
+            <hr>
+          </section>
+
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">The problem</h1>
+              </div>
+              <div class="main">
+                We consider the well known heat equation
+                $$
+                \frac{\partial u}{\partial t} - \Delta u =
+                0
+                $$
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">The finite volume scheme</h1>
+              </div>
+              <div class="main">
+                Since we have
+
+                $$
+                \int_V \Delta u = \int_{\partial V} \nabla u\cdot \mathbf{n},
+                $$
+
+                the flux function to implement is a discrete version of
+                $\nabla
+                u\cdot \mathbf{n}$.
+                Here, we choose the normal gradient of the first order,
+                requiring a stencil of two cells.
+                This is enough to write the static configuration
+
+                <pre><code class="cpp data-trim data-noescape">auto u = samurai::make_field&lt;1&gt;("u", mesh); // scalar field
 
 using cfg = samurai::FluxConfig&lt;SchemeType::LinearHomogeneous,
                                 1,            // output_field_size
                                 2,            // stencil_size
                                 decltype(u)>; // input_field_type
                 </code></pre>
-                </div>
               </div>
-            </section>
+            </div>
+          </section>
 
-            <section>
-              <div class="sl-block">
-                <div class="header">
-                  <h1 class="title">The finite volume scheme</h1>
-                </div>
-                <div class="main">
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">The finite volume scheme</h1>
+              </div>
+              <div class="main">
 
-                  Now, denoting by $V_L$ (left) and $V_R$ (right) the stencil
-                  cells and $F$ their interface, the discrete flux from $V_L$ to
-                  $V_R$ writes
+                Now, denoting by $V_L$ (left) and $V_R$ (right) the stencil
+                cells and $F$ their interface, the discrete flux from $V_L$ to
+                $V_R$ writes
 
-                  $$
-                  \mathcal{F}_h(u_h)_{|F} := \frac{u_R-u_L}{h},
-                  $$
-                  where $u_L$ and $u_R$ are the finite volume approximations of
-                  $u$ in the respective cells, and $h$ is the cell length.
+                $$
+                \mathcal{F}_h(u_h)_{|F} := \frac{u_R-u_L}{h},
+                $$
+                where $u_L$ and $u_R$ are the finite volume approximations of
+                $u$ in the respective cells, and $h$ is the cell length.
 
-                  The flux function then writes
+                The flux function then writes
 
-                  <pre><code class="cpp data-trim data-noescape">samurai::FluxDefinition&lt;cfg&gt; gradient([](double h)
+                <pre><code class="cpp data-trim data-noescape">samurai::FluxDefinition&lt;cfg&gt; gradient([](double h)
 {
     samurai::FluxStencilCoeffs&lt;cfg&gt; c;
     c[0] = -1/h; // left
@@ -530,17 +713,17 @@ using cfg = samurai::FluxConfig&lt;SchemeType::LinearHomogeneous,
 
 auto diff = samurai::make_flux_based_scheme(gradient);
           </code></pre>
-                </div>
               </div>
-            </section>
+            </div>
+          </section>
 
-            <section>
-              <div class="sl-block">
-                <div class="header">
-                  <h1 class="title">Simulation on uniform mesh</h1>
-                </div>
-                <div class="main">
-                  <pre><code class="cpp">...
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">Simulation on uniform mesh</h1>
+              </div>
+              <div class="main">
+                <pre><code class="cpp">...
 auto diff = samurai::make_diffusion&lt;decltype(u)>();
 auto id   = samurai::make_identity&lt;decltype(u)>();
 for(std::size_t ite=0; ite&lt;200; ++ite)
@@ -564,18 +747,18 @@ for(std::size_t ite=0; ite&lt;200; ++ite)
 }
 
                 </code></pre>
-                </div>
               </div>
-            </section>
+            </div>
+          </section>
 
-            <section>
-              <div class="sl-block">
-                <div class="header">
-                  <h1 class="title">Simulation with adaptive mesh
-                    refinement</h1>
-                </div>
-                <div class="main">
-                  <pre><code class="cpp" data-line-numbers="1-2,6">auto MRadaptation = samurai::make_MRAdapt(u);
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">Simulation with adaptive mesh
+                  refinement</h1>
+              </div>
+              <div class="main">
+                <pre><code class="cpp" data-line-numbers="1-2,6">auto MRadaptation = samurai::make_MRAdapt(u);
 double eps = 1e-4, regularity = 2;
 
 for(std::size_t ite=0; ite&lt;200; ++ite)
@@ -598,64 +781,64 @@ for(std::size_t ite=0; ite&lt;200; ++ite)
     samurai::save(fmt::format("mesh_{}", ite + 1), mesh, u);
 }
               </code></pre>
-                </div>
-              </div>
-            </section>
-          </section>
-
-          <section>
-            <div class="sl-block">
-              <div class="header">
-                <h1 class="title">Roadmap</h1>
-              </div>
-              <div class="main">
-                <ul>
-                  <li>Implement various finite volume schemes</li>
-                  <li>Ponio integration</li>
-                  <li>Python and Fortran bindings</li>
-                  <li>Implement point based multiresolution</li>
-                  <li>Implement patch based methods</li>
-                </ul>
               </div>
             </div>
           </section>
+        </section>
 
-          <section>
-            <div class="sl-block">
-              <div class="header">
-                <h1 class="title">Roadmap in the NumPeX context</h1>
-              </div>
-              <div class="main">
-                <ul>
-                  <li>Optimization</li>
-                  <li>Flexibility in term of container choice</li>
-                  <li>Parallelization using MPI</li>
-                  <li>Load balancing using diffusion algorithm or space filling
-                    curve</li>
-                  <li>GPU support</li>
-                  <li>IO optimization and compression</li>
-                </ul>
-              </div>
+        <section>
+          <div class="sl-block">
+            <div class="header">
+              <h1 class="title">Roadmap</h1>
             </div>
-          </section>
-
-          <section>
-            <div class="row">
-              <div class="col-6">
-                <img src="./figures/logo.png">
-              </div>
-              <div class="col-6 align-self-center text-end">
-                <h1 class="title-talk">Samurai</h1>
-                <a
-                  href="https://github.com/hpc-maths/samurai">https://github.com/hpc-maths/samurai</a>
-              </div>
+            <div class="main">
+              <ul>
+                <li>Implement various finite volume schemes</li>
+                <li>Ponio integration</li>
+                <li>Python and Fortran bindings</li>
+                <li>Implement point based multiresolution</li>
+                <li>Implement patch based methods</li>
+              </ul>
             </div>
-          </section>
+          </div>
+        </section>
 
-        </div>
+        <section>
+          <div class="sl-block">
+            <div class="header">
+              <h1 class="title">Roadmap in the NumPeX context</h1>
+            </div>
+            <div class="main">
+              <ul>
+                <li>Optimization</li>
+                <li>Flexibility in term of container choice</li>
+                <li>Parallelization using MPI</li>
+                <li>Load balancing using diffusion algorithm or space filling
+                  curve</li>
+                <li>GPU support</li>
+                <li>IO optimization and compression</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="row">
+            <div class="col-6">
+              <img src="./figures/logo.png">
+            </div>
+            <div class="col-6 align-self-center text-end">
+              <h1 class="title-talk">Samurai</h1>
+              <a
+                href="https://github.com/hpc-maths/samurai">https://github.com/hpc-maths/samurai</a>
+            </div>
+          </div>
+        </section>
+
       </div>
-      <script type="module" src="/main.js"></script>
+    </div>
+    <script type="module" src="/main.js"></script>
 
-    </body>
+  </body>
 
-  </html>
+</html>
