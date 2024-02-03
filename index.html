@@ -72,6 +72,69 @@
               </div>
             </div>
           </section>
+
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">Open source software</h1>
+              </div>
+              <div class="main text-center">
+                <table>
+                  <tr>
+                    <th>Name</th>
+                    <th>Data structure</th>
+                    <th>Criteria</th>
+                    <th>Subcycling</th>
+                    <th>Load balancing</th>
+                  </tr>
+                  <tr>
+                    <td>AMReX</td>
+                    <td>block</td>
+                    <td>heuristic</td>
+                    <td>yes</td>
+                    <td>SFC</td>
+                  </tr>
+                  <tr>
+                    <td>Dendro</td>
+                    <td>tree</td>
+                    <td>wavelet</td>
+                    <td>no</td>
+                    <td>SFC</td>
+                  </tr>
+                  <tr>
+                    <td>Dyablo</td>
+                    <td>tree</td>
+                    <td>heuristic</td>
+                    <td>?</td>
+                    <td>SFC</td>
+                  </tr>
+                  <tr>
+                    <td>Peano</td>
+                    <td>tree</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>SFC</td>
+                  </tr>
+                  <tr>
+                    <td>P4est</td>
+                    <td>tree</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>SFC</td>
+                  </tr>
+                  <tr>
+                    <td>samurai</td>
+                    <td>interval</td>
+                    <td>heuristic and wavelet</td>
+                    <td><span style="color:red">yes</span></td>
+                    <td><span style="color:red">SFC and diffusion</span></td>
+                  </tr>
+
+                </table>
+
+              </div>
+            </div>
+          </section>
         </section>
 
         <section data-menu-title="Context">
@@ -287,15 +350,76 @@
               <div class="header">
                 <h1 class="title">Compression rates</h1>
               </div>
+              <div class="main text-center">
+                <img width="60%" src="figures/p4est_1.png">
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">Compression rates</h1>
+              </div>
               <div class="main">
-                <div class="row">
-                  <div class="col-6 align-self-center">
-                    <img src="figures/p4est_1.png">
-                  </div>
-                  <div class="col-6 align-self-center">
-                    <img src="figures/p4est_2.png">
-                  </div>
-                </div>
+                <table>
+                  <tr>
+                    <th>Level</th>
+                    <th>Num. of cells</th>
+                    <th>p4est</th>
+                    <th>samurai (leaves)</th>
+                    <th>samurai (all)</th>
+                    <th>ratio</th>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>$66379$</td>
+                    <td>$2.57$ Mb</td>
+                    <td>$33.68$ Kb</td>
+                    <td>$121$ Kb</td>
+                    <td>$21.24$</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>$263767$</td>
+                    <td>$10.25$ Mb</td>
+                    <td>$66.64$ Kb</td>
+                    <td>$236.8$ Kb</td>
+                    <td>$43.28$</td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>$1051747$</td>
+                    <td>$40.96$ Mb</td>
+                    <td>$132.36$ Kb</td>
+                    <td>$467.24$ Kb</td>
+                    <td>$87.66$</td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>$4200559$</td>
+                    <td>$163.75$ Mb</td>
+                    <td>$263.6$ Kb</td>
+                    <td>$927$ Kb</td>
+                    <td>$176.64$</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>$16789627$</td>
+                    <td>$654.86$ Mb</td>
+                    <td>$525.9$ Kb</td>
+                    <td>$1.85$ Mb</td>
+                    <td>$353.98$</td>
+                  </tr>
+                  <tr>
+                    <td>14</td>
+                    <td>$67133575$</td>
+                    <td>$2.61$ Gb</td>
+                    <td>$1.05$ Mb</td>
+                    <td>$3.68$ Mb</td>
+                    <td>$709.24$</td>
+                  </tr>
+                </table>
               </div>
             </div>
           </section>
@@ -794,10 +918,11 @@ for(std::size_t ite=0; ite&lt;200; ++ite)
             <div class="main">
               <ul>
                 <li>Implement various finite volume schemes</li>
+                <li>Implement various lattice Boltzmann schemes</li>
+                <li>Implement various discontinuous Galerkin schemes</li>
                 <li>Ponio integration</li>
                 <li>Python and Fortran bindings</li>
-                <li>Implement point based multiresolution</li>
-                <li>Implement patch based methods</li>
+                <li>Implement point-based multiresolution</li>
               </ul>
             </div>
           </div>
@@ -817,6 +942,72 @@ for(std::size_t ite=0; ite&lt;200; ++ite)
                   curve</li>
                 <li>GPU support</li>
                 <li>IO optimization and compression</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="sl-block">
+            <div class="header">
+              <h1 class="title">HPC@Maths</h1>
+            </div>
+            <div class="main" style="font-size: 20px">
+              <p>samurai is part of the projects developed in the HPC@Maths
+                team (5 permanent researchers, 5 research engineers, 11 research associates, 6 PhD students, 1 Post-doc).</p>
+
+              <p>The main goals of this team are</p>
+              <img id="adapt" src="/light/figures/actions.png">
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="sl-block">
+            <div class="header">
+              <h1 class="title">Scientific collaborations</h1>
+            </div>
+            <div class="main" style="font-size: 20px">
+              <ul>
+                <li><span>Lattice Boltzmann methods and multiresolution</span> -
+                  <strong>Thomas
+                    Bellotti</strong> - LMO/Université Paris-Saclay</li>
+                <li><span>Magnetism plasma column</span> - <strong>Louis Reboul</strong> and
+                  <strong>Alejandro Alvarez</strong> - LPP/Ecole
+                  polytechnique</li>
+                <li><span>Direct numerical simulation of lithium-ion batteries based
+                  on high-resolution 3D images of porous electrode
+                  microstructures</span> - <strong>Ali Asad</strong> - Total</li>
+                <li><span>Sharp interface method for low Mach two-phase flows</span> -
+                  <strong>Nicolas Grenier</strong> et <strong>Christian
+                    Tenaud</strong>
+                  - (LISN, EM2C)/Université Paris-Saclay</li>
+                <li><span>Low-Mach reactive flows</span> - <strong>Christian Tenaud</strong>
+                  et <strong>Laurent Series</strong> - EM2C/Université
+                  Paris-Saclay</li>
+                <li><span>Interfacial flow simulation</span> - <strong>Giuseppe
+                    Orlando</strong> - CIEDS/Agence Innovation Défense</li>
+                <li><span>Mathematical modeling and simulation of non-equilibrium
+                  plasmas for the prediction of electric propulsion</span> -
+                  <strong>Zoubaïr Tazakkati</strong> - LPP/Ecole
+                  polytechnique</li>
+                <li><span>Simulation analysis on the risk of Hydrogen</span> -
+                  <strong>Luc Lecointre</strong>, <strong>Pierre-Alexandre
+                    Masset</strong> - CEA</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="sl-block">
+            <div class="header">
+              <h1 class="title">Scientific collaborations: NumPEx program</h1>
+            </div>
+            <div class="main" style="font-size: 20px">
+              <ul>
+                <li>PhD with CEA and INRIA (ExaMA WP1)</li>
+                <li>Post-doc with CEA (ExoDost) </li>
               </ul>
             </div>
           </div>
