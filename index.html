@@ -79,59 +79,69 @@
                 <h1 class="title">Open source software</h1>
               </div>
               <div class="main text-center">
-                <table>
+                <table style="font-size: 21px;">
                   <tr>
-                    <th>Name</th>
-                    <th>Data structure</th>
-                    <th>Criteria</th>
-                    <th>Subcycling</th>
-                    <th>Load balancing</th>
+                    <th class="text-center">Name</th>
+                    <th class="text-center">Data structure</th>
+                    <th class="text-center">Adaptation criteria</th>
+                    <th class="text-center">Time scheme</th>
+                    <th class="text-center">Load balancing</th>
                   </tr>
                   <tr>
-                    <td>AMReX</td>
-                    <td>block</td>
-                    <td>heuristic</td>
-                    <td>yes</td>
-                    <td>SFC</td>
+                    <td class="text-center">AMReX</td>
+                    <td class="text-center">block</td>
+                    <td class="text-center">heuristic</td>
+                    <td class="text-center">global/local</td>
+                    <td class="text-center">SFC</td>
                   </tr>
                   <tr>
-                    <td>Dendro</td>
-                    <td>tree</td>
-                    <td>wavelet</td>
-                    <td>no</td>
-                    <td>SFC</td>
+                    <td class="text-center">Dendro</td>
+                    <td class="text-center">tree</td>
+                    <td class="text-center">wavelet</td>
+                    <td class="text-center">global</td>
+                    <td class="text-center">SFC</td>
                   </tr>
                   <tr>
-                    <td>Dyablo</td>
-                    <td>tree</td>
-                    <td>heuristic</td>
-                    <td>?</td>
-                    <td>SFC</td>
+                    <td class="text-center">Dyablo</td>
+                    <td class="text-center">tree</td>
+                    <td class="text-center">heuristic</td>
+                    <td class="text-center">global</td>
+                    <td class="text-center">SFC</td>
                   </tr>
                   <tr>
-                    <td>Peano</td>
-                    <td>tree</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>SFC</td>
+                    <td class="text-center">Peano</td>
+                    <td class="text-center">tree</td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">SFC</td>
                   </tr>
                   <tr>
-                    <td>P4est</td>
-                    <td>tree</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>SFC</td>
+                    <td class="text-center">P4est</td>
+                    <td class="text-center">tree</td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">SFC</td>
                   </tr>
                   <tr>
-                    <td>samurai</td>
-                    <td>interval</td>
-                    <td>heuristic and wavelet</td>
-                    <td><span style="color:red">yes</span></td>
-                    <td><span style="color:red">SFC and diffusion</span></td>
+                    <td class="text-center">samurai</td>
+                    <td class="text-center">interval</td>
+                    <td class="text-center">heuristic/wavelet</td>
+                    <td
+                      class="text-center"><p
+                        class="mb-0"><span>RK/splitting/IMEX</span></p>
+                      <p class="mt-0"><span>time-space/code
+                          coupling</span></p></td>
+                    <td class="text-center"><span>SFC/
+                        diffusion algorithm</span></td>
                   </tr>
-
                 </table>
 
+                <div class="pt-5 fragment">
+                  <i class="text-center"><span>samurai: create a unified
+                      framework for testing a whole range of mesh
+                      adaptation methods with the latest generation of numerical
+                      schemes.</span></i>
+                </div>
               </div>
             </div>
           </section>
@@ -852,7 +862,7 @@ auto diff = samurai::make_diffusion&lt;decltype(u)>();
 auto id   = samurai::make_identity&lt;decltype(u)>();
 for(std::size_t ite=0; ite&lt;200; ++ite)
 {
-    samurai::update_ghost_mr(field);
+    samurai::update_ghost_mr(u);
 
     if (explicit_scheme)
     {
@@ -888,7 +898,7 @@ double eps = 1e-4, regularity = 2;
 for(std::size_t ite=0; ite&lt;200; ++ite)
 {
     MRadaptation(eps, regularity);
-    samurai::update_ghost_mr(field);
+    samurai::update_ghost_mr(u);
 
     if (explicit_scheme)
     {
@@ -954,10 +964,17 @@ for(std::size_t ite=0; ite&lt;200; ++ite)
             </div>
             <div class="main" style="font-size: 20px">
               <p>samurai is part of the projects developed in the HPC@Maths
-                team (5 permanent researchers, 5 research engineers, 11 research associates, 6 PhD students, 1 Post-doc).</p>
+                team (5 permanent researchers, 5 research engineers, 11 research
+                associates, 6 PhD students, 1 Post-doc).</p>
 
               <p>The main goals of this team are</p>
               <img id="adapt" src="/light/figures/actions.png">
+              <div class="text-center">
+                <p>PI: L.G and M. Massot -
+                  <a
+                    href="https://initiative-hpc-maths.gitlab.labos.polytechnique.fr/site/index.html">HPC@Maths
+                    website</a></p>
+              </div>
             </div>
           </div>
         </section>
@@ -967,33 +984,45 @@ for(std::size_t ite=0; ite&lt;200; ++ite)
             <div class="header">
               <h1 class="title">Scientific collaborations</h1>
             </div>
-            <div class="main" style="font-size: 20px">
+            <div class="main" style="font-size: 18px">
               <ul>
                 <li><span>Lattice Boltzmann methods and multiresolution</span> -
                   <strong>Thomas
-                    Bellotti</strong> - LMO/Université Paris-Saclay</li>
-                <li><span>Magnetism plasma column</span> - <strong>Louis Reboul</strong> and
-                  <strong>Alejandro Alvarez</strong> - LPP/Ecole
-                  polytechnique</li>
-                <li><span>Direct numerical simulation of lithium-ion batteries based
-                  on high-resolution 3D images of porous electrode
-                  microstructures</span> - <strong>Ali Asad</strong> - Total</li>
-                <li><span>Sharp interface method for low Mach two-phase flows</span> -
-                  <strong>Nicolas Grenier</strong> et <strong>Christian
-                    Tenaud</strong>
-                  - (LISN, EM2C)/Université Paris-Saclay</li>
-                <li><span>Low-Mach reactive flows</span> - <strong>Christian Tenaud</strong>
-                  et <strong>Laurent Series</strong> - EM2C/Université
-                  Paris-Saclay</li>
+                    Bellotti</strong> (IRMA/Université Strasbourg) and
+                  <strong>Benjamin Graille</strong> (LMO/Université
+                  Paris-Saclay)</li>
+                <li><span>Plasma discharges and electric propulsion</span> -
+                  <strong>Alejandro Alvarez</strong> (LPP/Ecole
+                  polytechnique) and <strong>Louis
+                    Reboul</strong> (ONERA)</li>
+                <li><span>Direct numerical simulation of lithium-ion batteries
+                    based
+                    on high-resolution 3D images of porous electrode
+                    microstructures</span> - <strong>Ali Asad</strong>
+                  (TotalEnergies) and <strong>Laurent François</strong>
+                  (ONERA)</li>
+                <li><span>Sharp interface method for low Mach two-phase
+                    flows</span> -
+                  <strong>Nicolas Grenier</strong> (LISN/Université
+                  Paris-Saclay) and <strong>Christian
+                    Tenaud</strong> (EM2C/Université
+                  Paris-Saclay)</li>
+                <li><span>Low-Mach reactive flows</span> - <strong>Christian
+                    Tenaud</strong> (EM2C/Université
+                  Paris-Saclay)</li>
                 <li><span>Interfacial flow simulation</span> - <strong>Giuseppe
-                    Orlando</strong> - CIEDS/Agence Innovation Défense</li>
-                <li><span>Mathematical modeling and simulation of non-equilibrium
-                  plasmas for the prediction of electric propulsion</span> -
-                  <strong>Zoubaïr Tazakkati</strong> - LPP/Ecole
-                  polytechnique</li>
-                <li><span>Simulation analysis on the risk of Hydrogen</span> -
+                    Orlando</strong> (CMAP/Ecole polytechnique) and
+                  <strong>Marica Pelanti</strong> (ENSTA/IP Paris)</li>
+                <li><span>Mathematical modeling and simulation of
+                    non-equilibrium
+                    plasmas for the prediction of electric propulsion</span> -
+                  <strong>Zoubaïr Tazakkati</strong> (CMAP/Ecole
+                  polytechnique)</li>
+                <li><span>Simulation analysis on the Hydrogen risk</span> -
                   <strong>Luc Lecointre</strong>, <strong>Pierre-Alexandre
-                    Masset</strong> - CEA</li>
+                    Masset</strong> (CEA) and <strong>Christian
+                    Tenaud</strong> (EM2C/Université
+                  Paris-Saclay)</li>
               </ul>
             </div>
           </div>
@@ -1007,8 +1036,33 @@ for(std::size_t ite=0; ite&lt;200; ++ite)
             <div class="main" style="font-size: 20px">
               <ul>
                 <li>PhD with CEA and INRIA (ExaMA WP1)</li>
+                <li>Engineer (ExaMA WP7)</li>
                 <li>Post-doc with CEA (ExoDost) </li>
               </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="row align-items-center">
+            <div class="col-4">
+              <video data-autoplay loop="true"
+                src="/figures/ink.mp4" />
+            </div>
+            <div class="col">
+              <img src="./figures/human.png">
+            </div>
+            <div class="col-5">
+              <img src="./figures/lbm_test_case.png">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <video data-autoplay loop="true"
+                src="/figures/bubble.mp4" />
+            </div>
+            <div class="col">
+              <img src="./figures/plasma.png">
             </div>
           </div>
         </section>

@@ -9,7 +9,7 @@
    id="svg130360"
    sodipodi:docname="actions.svg"
    inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
-   inkscape:export-filename="../light/figures/actions.png"
+   inkscape:export-filename="../dark/figures/actions.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,8 +27,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.7821137"
-     inkscape:cx="529.09413"
-     inkscape:cy="383.70107"
+     inkscape:cx="524.06198"
+     inkscape:cy="384.41995"
      inkscape:window-width="3840"
      inkscape:window-height="2107"
      inkscape:window-x="0"
@@ -434,11 +434,11 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Krona One';-inkscape-font-specification:'Krona One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect203374-3);display:inline;fill:#aad356;fill-opacity:1"><tspan
            x="309.70508"
            y="178.65197"
-           id="tspan6429">Computing resources</tspan></text>
+           id="tspan6917">Computing resources</tspan></text>
       <g
          id="g1454"
          inkscape:label="black"
-         style="display:inline">
+         style="display:none">
         <text
            xml:space="preserve"
            transform="matrix(0.26458333,0,0,0.26458333,-17.223247,67.144848)"
@@ -446,16 +446,16 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect237560-9);display:inline;fill:#000000"><tspan
              x="304.73438"
              y="207.36274"
-             id="tspan6431">Helping to set up shared computing resources for teaching </tspan><tspan
+             id="tspan6919">Helping to set up shared computing resources for teaching </tspan><tspan
              x="304.73438"
              y="219.02939"
-             id="tspan6433">and research, in the form of a research and teaching cloud </tspan><tspan
+             id="tspan6921">and research, in the form of a research and teaching cloud </tspan><tspan
              x="304.73438"
              y="230.69605"
-             id="tspan6435">and a computing and data mesocenter. These resources are </tspan><tspan
+             id="tspan6923">and a computing and data mesocenter. These resources are </tspan><tspan
              x="304.73438"
              y="242.36271"
-             id="tspan6437">necessary for the team.</tspan></text>
+             id="tspan6925">necessary for the team.</tspan></text>
         <g
            id="g106-9"
            transform="matrix(0.03084731,0,0,0.03084731,15.259343,115.11078)"
@@ -703,7 +703,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.6448px;line-height:1.25;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect167488-3);display:inline;fill:#000000"><tspan
              x="213.28906"
              y="201.07362"
-             id="tspan6439">02</tspan></text>
+             id="tspan6927">02</tspan></text>
         <g
            id="g195716-9"
            transform="translate(-15.097496,69.938579)"
@@ -767,16 +767,16 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect6025);display:inline;fill:#ffffff"><tspan
              x="304.73438"
              y="207.36274"
-             id="tspan6441">Helping to set up shared computing resources for teaching </tspan><tspan
+             id="tspan6929">Helping to set up shared computing resources for teaching </tspan><tspan
              x="304.73438"
              y="219.02939"
-             id="tspan6443">and research, in the form of a research and teaching cloud </tspan><tspan
+             id="tspan6931">and research, in the form of a research and teaching cloud </tspan><tspan
              x="304.73438"
              y="230.69605"
-             id="tspan6445">and a computing and data mesocenter. These resources are </tspan><tspan
+             id="tspan6933">and a computing and data mesocenter. These resources are </tspan><tspan
              x="304.73438"
              y="242.36271"
-             id="tspan6447">necessary for the team.</tspan></text>
+             id="tspan6935">necessary for the team.</tspan></text>
         <g
            id="g6003"
            transform="matrix(0.03084731,0,0,0.03084731,15.259343,115.11078)"
@@ -1024,7 +1024,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.6448px;line-height:1.25;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect6027);display:inline;fill:#ffffff"><tspan
              x="213.28906"
              y="201.07362"
-             id="tspan6449">02</tspan></text>
+             id="tspan6937">02</tspan></text>
         <g
            id="g6013"
            transform="translate(-15.097496,69.938579)"
@@ -1138,7 +1138,7 @@
          inkscape:label="text203372"><tspan
            x="309.70508"
            y="178.65197"
-           id="tspan6451">Research potential</tspan></text>
+           id="tspan6939">Research potential</tspan></text>
       <g
          id="g1110"
          inkscape:label="black"
@@ -1150,19 +1150,19 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect237560);display:inline;fill:#000000;stroke:none"><tspan
              x="304.73438"
              y="207.36274"
-             id="tspan6453">Develop a first-rate research potential by recruiting </tspan><tspan
+             id="tspan6941">Develop a first-rate research potential by recruiting </tspan><tspan
              x="304.73438"
              y="219.02939"
-             id="tspan6455">permanent staff. The creation of an interdisciplinary </tspan><tspan
+             id="tspan6943">permanent staff. The creation of an interdisciplinary </tspan><tspan
              x="304.73438"
              y="230.69605"
-             id="tspan6457">ecosystem involving the establishment of a team of top-</tspan><tspan
+             id="tspan6945">ecosystem involving the establishment of a team of top-</tspan><tspan
              x="304.73438"
              y="242.36271"
-             id="tspan6459">level research engineers is essential to create and maintain </tspan><tspan
+             id="tspan6947">level research engineers is essential to create and maintain </tspan><tspan
              x="304.73438"
              y="254.02936"
-             id="tspan6461">an effective link with companies, particularly SMEs.</tspan></text>
+             id="tspan6949">an effective link with companies, particularly SMEs.</tspan></text>
         <g
            id="g36"
            transform="matrix(0.26458333,0,0,0.26458333,13.89583,79.715348)"
@@ -1239,7 +1239,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.6448px;line-height:1.25;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect167488);display:inline;fill:#000000;stroke:none"><tspan
              x="213.28906"
              y="201.07362"
-             id="tspan6463">01</tspan></text>
+             id="tspan6951">01</tspan></text>
         <g
            id="g195716"
            transform="translate(-15.097499,35.906641)"
@@ -1303,19 +1303,19 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect5833);display:inline;fill:#ffffff;stroke:none"><tspan
              x="304.73438"
              y="207.36274"
-             id="tspan6465">Develop a first-rate research potential by recruiting </tspan><tspan
+             id="tspan6953">Develop a first-rate research potential by recruiting </tspan><tspan
              x="304.73438"
              y="219.02939"
-             id="tspan6467">permanent staff. The creation of an interdisciplinary </tspan><tspan
+             id="tspan6955">permanent staff. The creation of an interdisciplinary </tspan><tspan
              x="304.73438"
              y="230.69605"
-             id="tspan6469">ecosystem involving the establishment of a team of top-</tspan><tspan
+             id="tspan6957">ecosystem involving the establishment of a team of top-</tspan><tspan
              x="304.73438"
              y="242.36271"
-             id="tspan6471">level research engineers is essential to create and maintain </tspan><tspan
+             id="tspan6959">level research engineers is essential to create and maintain </tspan><tspan
              x="304.73438"
              y="254.02936"
-             id="tspan6473">an effective link with companies, particularly SMEs.</tspan></text>
+             id="tspan6961">an effective link with companies, particularly SMEs.</tspan></text>
         <g
            id="g5811"
            transform="matrix(0.26458333,0,0,0.26458333,13.89583,79.715348)"
@@ -1392,7 +1392,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.6448px;line-height:1.25;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect5835);display:inline;fill:#ffffff;stroke:none"><tspan
              x="213.28906"
              y="201.07362"
-             id="tspan6475">01</tspan></text>
+             id="tspan6963">01</tspan></text>
         <g
            id="g5821"
            transform="translate(-15.097499,35.906641)"
@@ -1504,7 +1504,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Krona One';-inkscape-font-specification:'Krona One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect203374-34);display:inline;fill:#f9c908;fill-opacity:1"><tspan
            x="309.70508"
            y="178.65197"
-           id="tspan6477">Teaching</tspan></text>
+           id="tspan6965">Teaching</tspan></text>
       <g
          id="g529"
          inkscape:label="black"
@@ -1516,13 +1516,13 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect237560-7);display:inline;fill:#000000"><tspan
              x="304.73438"
              y="207.36274"
-             id="tspan6479">Gradual development of a dedicated teaching program with </tspan><tspan
+             id="tspan6967">Gradual development of a dedicated teaching program with </tspan><tspan
              x="304.73438"
              y="219.02939"
-             id="tspan6481">strong involvement with students in the field of research </tspan><tspan
+             id="tspan6969">strong involvement with students in the field of research </tspan><tspan
              x="304.73438"
              y="230.69605"
-             id="tspan6483">and interaction with companies.</tspan></text>
+             id="tspan6971">and interaction with companies.</tspan></text>
         <g
            id="g858"
            transform="matrix(0.20591982,0,0,0.20591982,159.61937,78.6463)"
@@ -1571,7 +1571,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.6448px;line-height:1.25;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect167488-7);display:inline;fill:#000000"><tspan
              x="213.28906"
              y="201.07362"
-             id="tspan6485">03</tspan></text>
+             id="tspan6973">03</tspan></text>
         <path
            style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            id="path132283-5"
@@ -1635,13 +1635,13 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect5713);display:inline;fill:#ffffff"><tspan
              x="304.73438"
              y="207.36274"
-             id="tspan6487">Gradual development of a dedicated teaching program with </tspan><tspan
+             id="tspan6975">Gradual development of a dedicated teaching program with </tspan><tspan
              x="304.73438"
              y="219.02939"
-             id="tspan6489">strong involvement with students in the field of research </tspan><tspan
+             id="tspan6977">strong involvement with students in the field of research </tspan><tspan
              x="304.73438"
              y="230.69605"
-             id="tspan6491">and interaction with companies.</tspan></text>
+             id="tspan6979">and interaction with companies.</tspan></text>
         <g
            id="g5691"
            transform="matrix(0.20591982,0,0,0.20591982,159.61937,78.6463)"
@@ -1690,7 +1690,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.6448px;line-height:1.25;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect5715);display:inline;fill:#ffffff"><tspan
              x="213.28906"
              y="201.07362"
-             id="tspan6493">03</tspan></text>
+             id="tspan6981">03</tspan></text>
         <path
            style="fill:none;stroke:#ffffff;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            id="path5697"
@@ -1803,12 +1803,12 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Krona One';-inkscape-font-specification:'Krona One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect203374-37);display:inline;fill:#f35844;fill-opacity:1"><tspan
            x="309.70508"
            y="178.65197"
-           id="tspan6495">Company partnership </tspan><tspan
+           id="tspan6983">Company partnership </tspan><tspan
            x="309.70508"
            y="200.57385"
-           id="tspan6499"><tspan
+           id="tspan6987"><tspan
              dx="0 9.53125 10.125 6.3046875 6.828125 9.53125 9.96875 6.828125 9.53125 10.125 9.609375 6.828125 4.390625 9.609375 4.390625"
-             id="tspan6497">entreprenariale</tspan></tspan></text>
+             id="tspan6985">entreprenariale</tspan></tspan></text>
       <g
          id="g998"
          style="display:none;fill:#ffffff;stroke:#000000"
@@ -1820,7 +1820,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.6448px;line-height:1.25;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect167488-74);display:inline;fill:#000000;stroke:none"><tspan
              x="213.28906"
              y="201.07362"
-             id="tspan6501">04</tspan></text>
+             id="tspan6989">04</tspan></text>
         <text
            xml:space="preserve"
            transform="matrix(0.26458333,0,0,0.26458333,129.54615,70.23166)"
@@ -1828,13 +1828,13 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect237560-90);display:inline;fill:#000000;stroke:none"><tspan
              x="304.73438"
              y="207.36274"
-             id="tspan6503">Develop an interface with companies by setting up research </tspan><tspan
+             id="tspan6991">Develop an interface with companies by setting up research </tspan><tspan
              x="304.73438"
              y="219.02939"
-             id="tspan6505">collaborations on open source software developed by the </tspan><tspan
+             id="tspan6993">collaborations on open source software developed by the </tspan><tspan
              x="304.73438"
              y="230.69605"
-             id="tspan6507">team.</tspan></text>
+             id="tspan6995">team.</tspan></text>
         <g
            id="g1447"
            transform="matrix(0.02932488,0,0,0.02932488,162.09747,115.11552)"
@@ -1915,7 +1915,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.6448px;line-height:1.25;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect5607);display:inline;fill:#ffffff;stroke:none"><tspan
              x="213.28906"
              y="201.07362"
-             id="tspan6509">04</tspan></text>
+             id="tspan6997">04</tspan></text>
         <text
            xml:space="preserve"
            transform="matrix(0.26458333,0,0,0.26458333,129.54615,70.23166)"
@@ -1923,13 +1923,13 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect5609);display:inline;fill:#ffffff;stroke:none"><tspan
              x="304.73438"
              y="207.36274"
-             id="tspan6511">Develop an interface with companies by setting up research </tspan><tspan
+             id="tspan6999">Develop an interface with companies by setting up research </tspan><tspan
              x="304.73438"
              y="219.02939"
-             id="tspan6513">collaborations on open source software developed by the </tspan><tspan
+             id="tspan7001">collaborations on open source software developed by the </tspan><tspan
              x="304.73438"
              y="230.69605"
-             id="tspan6515">team.</tspan></text>
+             id="tspan7003">team.</tspan></text>
         <g
            id="g5589"
            transform="matrix(0.02932488,0,0,0.02932488,162.09747,115.11552)"
