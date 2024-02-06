@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="roadmap.svg"
+   inkscape:export-filename="../dark/figures/roadmap.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.8122203"
+     inkscape:cx="620.86174"
+     inkscape:cy="384.92717"
+     inkscape:window-width="1512"
+     inkscape:window-height="916"
+     inkscape:window-x="144"
+     inkscape:window-y="-53"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g44" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="light"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:none">
+    <g
+       id="g7"
+       transform="translate(0,1.364212)" />
+    <g
+       id="g12"
+       transform="translate(0,-18.520839)"
+       style="stroke-width:0.47625;stroke-dasharray:none">
+      <rect
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.47625;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect2"
+         width="200"
+         height="20"
+         x="53.815723"
+         y="32.3647"
+         rx="4"
+         ry="4" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.47625;stroke-dasharray:none"
+         x="153.7296"
+         y="44.147537"
+         id="text7"><tspan
+           sodipodi:role="line"
+           id="tspan7"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.47625;stroke-dasharray:none"
+           x="153.7296"
+           y="44.147537">intervals and algebra of sets</tspan></text>
+    </g>
+    <g
+       id="g23"
+       transform="translate(0,22.605371)">
+      <g
+         id="g17">
+        <rect
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.47625;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect3"
+           width="49"
+           height="20"
+           x="53.815723"
+           y="53.721638"
+           rx="4"
+           ry="4"
+           transform="translate(0,1.364212)" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="78.315727"
+           y="67.314827"
+           id="text8"><tspan
+             sodipodi:role="line"
+             id="tspan8"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+             x="78.315727"
+             y="67.314827">FVM</tspan></text>
+      </g>
+      <g
+         id="g18">
+        <rect
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.47625;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect5"
+           width="49"
+           height="20"
+           x="104.14906"
+           y="53.721638"
+           rx="4"
+           ry="4"
+           transform="translate(0,1.364212)" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="128.64906"
+           y="67.314827"
+           id="text9"><tspan
+             sodipodi:role="line"
+             id="tspan9"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+             x="128.64906"
+             y="67.314827">LBM</tspan></text>
+      </g>
+      <g
+         id="g19">
+        <rect
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.47625;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect6"
+           width="49"
+           height="20"
+           x="154.48239"
+           y="53.721638"
+           rx="4"
+           ry="4"
+           transform="translate(0,1.364212)" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="178.94106"
+           y="67.314827"
+           id="text10"><tspan
+             sodipodi:role="line"
+             id="tspan10"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+             x="178.94106"
+             y="67.314827">DG</tspan></text>
+      </g>
+      <g
+         id="g20">
+        <rect
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.47625;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect4"
+           width="49"
+           height="20"
+           x="204.81572"
+           y="53.721638"
+           rx="4"
+           ry="4"
+           transform="translate(0,1.364212)" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="229.40186"
+           y="67.452629"
+           id="text11"><tspan
+             sodipodi:role="line"
+             id="tspan11"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+             x="229.40186"
+             y="67.452629">time schemes</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="279.26605"
+           y="67.262131"
+           id="text28"><tspan
+             sodipodi:role="line"
+             id="tspan28"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+             x="279.26605"
+             y="67.262131">Ponio</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="279.14557"
+         y="67.847397"
+         id="text29"><tspan
+           sodipodi:role="line"
+           id="tspan29"
+           style="stroke-width:0.264583"
+           x="279.14557"
+           y="67.847397"></tspan></text>
+    </g>
+    <g
+       id="g21"
+       transform="translate(0,21.166674)">
+      <rect
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.47625;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect7"
+         width="200"
+         height="20"
+         x="53.815723"
+         y="77.806999"
+         rx="4"
+         ry="4" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="153.79333"
+         y="89.579498"
+         id="text12"><tspan
+           sodipodi:role="line"
+           id="tspan12"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="153.79333"
+           y="89.579498">dedicated applications</tspan></text>
+    </g>
+    <g
+       id="g15"
+       transform="translate(-48.439678,0.98619285)">
+      <g
+         id="g22">
+        <rect
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.47625;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect12"
+           width="99"
+           height="20"
+           x="53.909805"
+           y="32.082447"
+           rx="4"
+           ry="4"
+           transform="translate(48.439678,2.0576744)" />
+        <rect
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.47625;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect12-5"
+           width="99"
+           height="20"
+           x="203.2554"
+           y="32.775909"
+           rx="4"
+           ry="4"
+           transform="translate(0,1.364212)" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="252.7399"
+         y="45.9109"
+         id="text15"><tspan
+           sodipodi:role="line"
+           id="tspan15"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="252.7399"
+           y="45.9109">algorithms</tspan></text>
+      <g
+         id="g28">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="103.4856"
+           y="45.262226"
+           id="text13"
+           transform="translate(48.439678,0.69346237)"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+             x="103.4856"
+             y="45.262226"
+             id="tspan25">containers</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:7.05556px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="152.03288"
+           y="49.78027"
+           id="text26"><tspan
+             sodipodi:role="line"
+             id="tspan26"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+             x="152.03288"
+             y="49.78027">xtensor, eigen, ...</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g24"
+       transform="translate(0,-21.398232)">
+      <rect
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.47625;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect23"
+         width="200"
+         height="20"
+         x="53.815723"
+         y="77.806999"
+         rx="4"
+         ry="4" />
+      <g
+         id="g27">
+        <text
+           xml:space="preserve"
+           style="font-size:7.05556px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="153.8533"
+           y="94.650032"
+           id="text27"><tspan
+             sodipodi:role="line"
+             id="tspan27"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+             x="153.8533"
+             y="94.650032">MPI, cuda, HIP, SYCL, openMP, Kokkos, ...</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="153.79333"
+           y="89.579498"
+           id="text23"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+             x="153.79333"
+             y="89.579498"
+             id="tspan24">parallel backend</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.254944px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ConcaveTriangle)"
+       d="M 270.17283,87.873924 H 256.72046"
+       id="path29" />
+  </g>
+  <g
+     inkscape:label="dark"
+     inkscape:groupmode="layer"
+     id="g44">
+    <g
+       id="g29"
+       transform="translate(0,1.364212)" />
+    <g
+       id="g30"
+       transform="translate(0,-18.520839)"
+       style="stroke-width:0.47625;stroke-dasharray:none">
+      <rect
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.47625;stroke-linejoin:round;fill-opacity:1;stroke-dasharray:none"
+         id="rect29"
+         width="200"
+         height="20"
+         x="53.815723"
+         y="32.3647"
+         rx="4"
+         ry="4" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.47625;stroke-dasharray:none;fill:#ffffff"
+         x="153.7296"
+         y="44.147537"
+         id="text30"><tspan
+           sodipodi:role="line"
+           id="tspan30"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.47625;stroke-dasharray:none;fill:#ffffff"
+           x="153.7296"
+           y="44.147537">intervals and algebra of sets</tspan></text>
+    </g>
+    <g
+       id="g36"
+       transform="translate(0,22.605371)">
+      <g
+         id="g31">
+        <rect
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.47625;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect30"
+           width="49"
+           height="20"
+           x="53.815723"
+           y="53.721638"
+           rx="4"
+           ry="4"
+           transform="translate(0,1.364212)" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#ffffff"
+           x="78.315727"
+           y="67.314827"
+           id="text31"><tspan
+             sodipodi:role="line"
+             id="tspan31"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583;fill:#ffffff"
+             x="78.315727"
+             y="67.314827">FVM</tspan></text>
+      </g>
+      <g
+         id="g32">
+        <rect
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.47625;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect31"
+           width="49"
+           height="20"
+           x="104.14906"
+           y="53.721638"
+           rx="4"
+           ry="4"
+           transform="translate(0,1.364212)" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#ffffff"
+           x="128.64906"
+           y="67.314827"
+           id="text32"><tspan
+             sodipodi:role="line"
+             id="tspan32"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583;fill:#ffffff"
+             x="128.64906"
+             y="67.314827">LBM</tspan></text>
+      </g>
+      <g
+         id="g33">
+        <rect
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.47625;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect32"
+           width="49"
+           height="20"
+           x="154.48239"
+           y="53.721638"
+           rx="4"
+           ry="4"
+           transform="translate(0,1.364212)" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#ffffff"
+           x="178.94106"
+           y="67.314827"
+           id="text33"><tspan
+             sodipodi:role="line"
+             id="tspan33"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583;fill:#ffffff"
+             x="178.94106"
+             y="67.314827">DG</tspan></text>
+      </g>
+      <g
+         id="g35">
+        <rect
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.47625;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect33"
+           width="49"
+           height="20"
+           x="204.81572"
+           y="53.721638"
+           rx="4"
+           ry="4"
+           transform="translate(0,1.364212)" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#ffffff"
+           x="229.40186"
+           y="67.452629"
+           id="text34"><tspan
+             sodipodi:role="line"
+             id="tspan34"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583;fill:#ffffff"
+             x="229.40186"
+             y="67.452629">time schemes</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#ffffff"
+           x="279.26605"
+           y="67.262131"
+           id="text35"><tspan
+             sodipodi:role="line"
+             id="tspan35"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583;fill:#ffffff"
+             x="279.26605"
+             y="67.262131">Ponio</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="279.14557"
+         y="67.847397"
+         id="text36"><tspan
+           sodipodi:role="line"
+           id="tspan36"
+           style="stroke-width:0.264583"
+           x="279.14557"
+           y="67.847397"></tspan></text>
+    </g>
+    <g
+       id="g37"
+       transform="translate(0,21.166674)"
+       style="stroke:#ffffff">
+      <rect
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.47625;stroke-linejoin:round;fill-opacity:1;stroke-dasharray:none"
+         id="rect36"
+         width="200"
+         height="20"
+         x="53.815723"
+         y="77.806999"
+         rx="4"
+         ry="4" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#ffffff;stroke:#ffffff"
+         x="153.79333"
+         y="89.579498"
+         id="text37"><tspan
+           sodipodi:role="line"
+           id="tspan37"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583;fill:#ffffff;stroke:#ffffff"
+           x="153.79333"
+           y="89.579498">dedicated applications</tspan></text>
+    </g>
+    <g
+       id="g41"
+       transform="translate(-48.439678,0.98619285)">
+      <g
+         id="g38">
+        <rect
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.47625;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect37"
+           width="99"
+           height="20"
+           x="53.909805"
+           y="32.082447"
+           rx="4"
+           ry="4"
+           transform="translate(48.439678,2.0576744)" />
+        <rect
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.47625;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect38"
+           width="99"
+           height="20"
+           x="203.2554"
+           y="32.775909"
+           rx="4"
+           ry="4"
+           transform="translate(0,1.364212)" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#ffffff"
+         x="252.7399"
+         y="45.9109"
+         id="text38"><tspan
+           sodipodi:role="line"
+           id="tspan38"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583;fill:#ffffff"
+           x="252.7399"
+           y="45.9109">algorithms</tspan></text>
+      <g
+         id="g40">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#ffffff"
+           x="103.4856"
+           y="45.262226"
+           id="text39"
+           transform="translate(48.439678,0.69346237)"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583;fill:#ffffff"
+             x="103.4856"
+             y="45.262226"
+             id="tspan39">containers</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:7.05556px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#ffffff"
+           x="152.03288"
+           y="49.78027"
+           id="text40"><tspan
+             sodipodi:role="line"
+             id="tspan40"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583;fill:#ffffff"
+             x="152.03288"
+             y="49.78027">xtensor, eigen, ...</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g43"
+       transform="translate(0,-21.398232)">
+      <rect
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.47625;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect41"
+         width="200"
+         height="20"
+         x="53.815723"
+         y="77.806999"
+         rx="4"
+         ry="4" />
+      <g
+         id="g42">
+        <text
+           xml:space="preserve"
+           style="font-size:7.05556px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#ffffff"
+           x="153.8533"
+           y="94.650032"
+           id="text41"><tspan
+             sodipodi:role="line"
+             id="tspan41"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583;fill:#ffffff"
+             x="153.8533"
+             y="94.650032">MPI, cuda, HIP, SYCL, openMP, Kokkos, ...</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#ffffff"
+           x="153.79333"
+           y="89.579498"
+           id="text42"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Optima;-inkscape-font-specification:'Optima, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583;fill:#ffffff"
+             x="153.79333"
+             y="89.579498"
+             id="tspan42">parallel backend</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.254944px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ConcaveTriangle)"
+       d="M 270.17283,87.873924 H 256.72046"
+       id="path43" />
+  </g>
+</svg>

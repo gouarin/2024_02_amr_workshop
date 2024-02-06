@@ -79,7 +79,7 @@
                 <h1 class="title">Open source software</h1>
               </div>
               <div class="main text-center">
-                <table style="font-size: 21px;">
+                <table style="font-size: 20px;">
                   <tr>
                     <th class="text-center">Name</th>
                     <th class="text-center">Data structure</th>
@@ -892,12 +892,13 @@ for(std::size_t ite=0; ite&lt;200; ++ite)
                   refinement</h1>
               </div>
               <div class="main">
-                <pre><code class="cpp" data-line-numbers="1-2,6">auto MRadaptation = samurai::make_MRAdapt(u);
+                <pre><code class="cpp" data-line-numbers="1-2,6-7">auto MRadaptation = samurai::make_MRAdapt(u);
 double eps = 1e-4, regularity = 2;
 
 for(std::size_t ite=0; ite&lt;200; ++ite)
 {
     MRadaptation(eps, regularity);
+    unp1.resize();
     samurai::update_ghost_mr(u);
 
     if (explicit_scheme)
@@ -918,6 +919,30 @@ for(std::size_t ite=0; ite&lt;200; ++ite)
               </div>
             </div>
           </section>
+          <section>
+            <div class="sl-block">
+              <div class="header">
+                <h1 class="title">Key point</h1>
+              </div>
+              <div class="main text-center">
+                <p>
+                  Implement your finite volume scheme on a uniform cartesian
+                  grid
+                </p>
+                <p>and</p>
+
+                <p class="fragment"><span>you have explicit and implicit
+                    operator for
+                    free</span></p>
+                <p class="fragment"><span>you have various time schemes
+                    available</span></p>
+                <p class="fragment"><span>you have the adaptation for
+                    free</span></p>
+                <p class="fragment"><span>you have parallelism for
+                    free</span></p>
+              </div>
+            </div>
+          </section>
         </section>
 
         <section>
@@ -925,7 +950,9 @@ for(std::size_t ite=0; ite&lt;200; ++ite)
             <div class="header">
               <h1 class="title">Roadmap</h1>
             </div>
-            <div class="main">
+            <div class="main text-center">
+              <img id="adapt" src="/light/figures/roadmap.png">
+              <!--
               <ul>
                 <li>Implement various finite volume schemes</li>
                 <li>Implement various lattice Boltzmann schemes</li>
@@ -933,7 +960,7 @@ for(std::size_t ite=0; ite&lt;200; ++ite)
                 <li>Ponio integration</li>
                 <li>Python and Fortran bindings</li>
                 <li>Implement point-based multiresolution</li>
-              </ul>
+              </ul> -->
             </div>
           </div>
         </section>
@@ -947,9 +974,9 @@ for(std::size_t ite=0; ite&lt;200; ++ite)
               <ul>
                 <li>Optimization</li>
                 <li>Flexibility in term of container choice</li>
-                <li>Parallelization using MPI</li>
+                <li>Parallel backends</li>
                 <li>Load balancing using diffusion algorithm or space filling
-                  curve</li>
+                  curves</li>
                 <li>GPU support</li>
                 <li>IO optimization and compression</li>
               </ul>
@@ -964,7 +991,8 @@ for(std::size_t ite=0; ite&lt;200; ++ite)
             </div>
             <div class="main" style="font-size: 20px">
               <p>samurai is part of the projects developed in the HPC@Maths
-                team (5 permanent researchers, 5 research engineers, 11 research
+                team (5 permanent researchers, 5 research engineers, 11
+                research
                 associates, 6 PhD students, 1 Post-doc).</p>
 
               <p>The main goals of this team are</p>
@@ -986,7 +1014,8 @@ for(std::size_t ite=0; ite&lt;200; ++ite)
             </div>
             <div class="main" style="font-size: 18px">
               <ul>
-                <li><span>Lattice Boltzmann methods and multiresolution</span> -
+                <li><span>Lattice Boltzmann methods and multiresolution</span>
+                  -
                   <strong>Thomas
                     Bellotti</strong> (IRMA/Université Strasbourg) and
                   <strong>Benjamin Graille</strong> (LMO/Université
@@ -1010,7 +1039,8 @@ for(std::size_t ite=0; ite&lt;200; ++ite)
                 <li><span>Low-Mach reactive flows</span> - <strong>Christian
                     Tenaud</strong> (EM2C/Université
                   Paris-Saclay)</li>
-                <li><span>Interfacial flow simulation</span> - <strong>Giuseppe
+                <li><span>Interfacial flow simulation</span> -
+                  <strong>Giuseppe
                     Orlando</strong> (CMAP/Ecole polytechnique) and
                   <strong>Marica Pelanti</strong> (ENSTA/IP Paris)</li>
                 <li><span>Mathematical modeling and simulation of
